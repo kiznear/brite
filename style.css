@@ -22,7 +22,7 @@ img{
     text-align: center;
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .click:hover{
@@ -33,9 +33,9 @@ img{
 
 
 .briteimg{
+    min-width: 15%;
     padding-top: 2%;
     display: block;
-    width: 15%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -57,9 +57,8 @@ img{
 #twitter,
 #discord,
 #tiktok {
-    font-size: 4em;
     color:#fff;
-    border-radius: 29px;
+    border-radius: 29px;    font-size: 5em;
     padding: 11px 19px;
     margin: 0 40px;
     text-shadow: 0 0 30px #9900ff, 0 0 70px #0072ff;
@@ -74,19 +73,38 @@ img{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media (max-width:919px) {
+
+    .click{
+        font-size: 1em;
+    }
+
+    .briteimg{
+        margin-top: 5%;
+        padding-bottom: 5%;
+        width: 33%;
+    }
+    
+    #youtube,
+    #twitter,
+    #discord,
+    #tiktok {
+        font-size: 2.5em;
+    
+    }
+    }
+
+@media (min-width:920px) {
 
 .briteimg{
-    padding-bottom: 5%;
-    min-width: 35%;
-    max-width: 50%;
+    width: 15%;
 }
 
 #youtube,
 #twitter,
 #discord,
 #tiktok {
-    font-size: 3.2em;
+    font-size: 3.5em;
 
 }
 }
