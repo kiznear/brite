@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Chivo Black'), url(http://themes.googleusercontent.com/static/fonts/chivo/v4/uOXSiKkEygwkvR4cgUzOz_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+a {
+    all: unset;  
+}
+
+body {
+    background-color: #0d0d0d;
+}
+
+img{
+    animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-filter: drop-shadow(0px 0px 9px #21b9ff8c);
+    filter: drop-shadow(0px 0px 9px #21b9ff8c);
+}
+
+.click{
+    margin-top: 60px;
+    color:white;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.click:hover{
+    cursor: pointer;
+
+    color:#0072ff;
+}
+
+
+.briteimg{
+    padding-top: 2%;
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-weight: 100;
+    font-family: "Chivo";
+    margin: 0 5px;
+}
+
+#youtube,
+#twitter,
+#discord,
+#tiktok {
+    font-size: 4em;
+    color:#fff;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    text-shadow: 0 0 30px #9900ff, 0 0 70px #0072ff;
+}
+
+#youtube:hover,
+#twitter:hover,
+#tiktok:hover {
+
+    color:#0072ff;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.briteimg{
+    padding-bottom: 5%;
+    min-width: 35%;
+    max-width: 50%;
+}
+
+#youtube,
+#twitter,
+#discord,
+#tiktok {
+    font-size: 3.2em;
+
+}
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
