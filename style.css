@@ -55,7 +55,6 @@ img{
 
 #youtube,
 #twitter,
-#discord,
 #tiktok {
     color:#fff;
     border-radius: 29px;    font-size: 5em;
@@ -68,7 +67,7 @@ img{
 #twitter:hover,
 #tiktok:hover {
 
-    color:#0072ff;
+    color:#a200ff;
     cursor: pointer;
 }
 
