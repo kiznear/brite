@@ -23,11 +23,11 @@ img{
     font-family: Helvetica;
     font-weight: bold;
     font-size: 2em;
+    transition: color 0.17s ease-in;
 }
 
 .click:hover{
     cursor: pointer;
-
     color:#a200ff;;
 }
 
@@ -61,12 +61,12 @@ img{
     padding: 11px 19px;
     margin: 0 40px;
     text-shadow: 0 0 30px #9900ff, 0 0 70px #0072ff;
+    transition: color 0.17s ease-in;
 }
 
 #youtube:hover,
 #twitter:hover,
 #tiktok:hover {
-
     color:#a200ff;
     cursor: pointer;
 }
